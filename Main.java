@@ -8,8 +8,8 @@ public class Main{
 	public static void main(String[] args) throws Exception {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter text: ");
-		String textToTranslate = input.nextLine();
-		String translatedText = Translator.translate(null);
+		t.textToTranslate = input.nextLine();
+		t.translatedText = Translator.translate(t);
 		System.out.println("Translated text: " + translatedText);
 	}
 	
